@@ -1,6 +1,6 @@
 %define name	plasma-applet-launchbutton
 %define version	0.0.4
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name: %{name}
 Version: %{version}
@@ -12,11 +12,7 @@ Source: %{name}-%{version}.tar.bz2
 # upstream is maarten.vanraes@gmail.com , URL might be added in later versions
 
 BuildRoot: %{_tmppath}/%{name}-%{version}
-BuildRequires: qt4-devel
-BuildRequires: kde4-macros
-BuildRequires: X11-devel
-BuildRequires: kdebase4-devel >= 1:4.2.98
-BuildRequires: kdebase4-workspace-devel >= 2:4.2.98
+BuildRequires: kdelibs4-devel
 BuildRequires: qt4-qtdbus
 Requires: kdebase4-workspace
 Requires: kdeplasma4
