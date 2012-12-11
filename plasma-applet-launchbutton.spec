@@ -42,3 +42,14 @@ rm -fr %{buildroot}
 
 %clean
 rm -fr %{buildroot}
+
+
+%changelog
+* Mon Feb 07 2011 Funda Wang <fwang@mandriva.org> 0.0.4-2mdv2011.0
++ Revision: 636575
+- tighten BR
+
+* Fri Sep 03 2010 Maarten Vanraes <alien@mandriva.org> 0.0.4-1mdv2011.0
++ Revision: 575681
+- import plasma-applet-launchbutton
+
